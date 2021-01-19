@@ -19,7 +19,7 @@ public class Assignment1_conditional_statements {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner task= new  Scanner(System.in);
+        Scanner task= new Scanner(System.in);
         //Enter any option : Create Account?Y/N code
         System.out.println("Enter any option : Create Account?Y/N");
         String option ;
@@ -99,7 +99,7 @@ public class Assignment1_conditional_statements {
     }
         
    
- //OUTPUT:
+//OUTPUT:
 // run:
 //Enter any option : Create Account?Y/N
 //Y

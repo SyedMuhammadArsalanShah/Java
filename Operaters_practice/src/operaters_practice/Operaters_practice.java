@@ -21,6 +21,7 @@ public class Operaters_practice {
         // TODO code application logic here
             
      Scanner marksheet = new Scanner(System.in);
+       // ----------------******Marksheet *****----------------
                  System.out.println("Enter Your Name");
                  String name ;
                  name=marksheet.nextLine();
@@ -62,7 +63,7 @@ public class Operaters_practice {
                 System.out.println("Grade Is :"+grade);
                               
                  
-              // ----------------***********----------------
+              // --------*****Even Number/Odd Number *****---------
               
               int number ;
               number=marksheet.nextInt();
@@ -70,7 +71,7 @@ public class Operaters_practice {
                   System.out.println("even number");
               }else {System.out.println("odd number");}
                  
-              // ----------------***********----------------
+              // ----------------******Leapyear *****----------------
               
               int year ;
               year=marksheet.nextInt();
