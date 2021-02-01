@@ -66,6 +66,25 @@ public class Ascii_table {
         else{System.out.println("symbol");}
         System.out.println("enter your character and check with"+int4 + " + :"+chhhh2);
 
+      
+        // method 5 convert  value with ascii table  
+        System.out.println("enter character for method 5");
+         char chh11 =scan.next().charAt(0);
+        if((chh11 >=65 && chh11<=90)||(chh11 >=97&& chh11 <=122)){ 
+        System.out.println("Its A Alpahbet");
+        System.out.println("Now convert your  Alpahbet");
+        //  char chh11 =scan.next().charAt(0);
+            if ((chh11 >=65 && chh11<=90)) {
+                char convert =(char) (chh11+32);
+                System.out.println("convert in lowercase :"+ convert);   
+            }else if ((chh11 >=97&& chh11 <=122)) {
+                 char convert =(char) (chh11-32);
+                 System.out.println("convert in uppercase : " + convert);
+               }
+            }
+         else  if(chh11 >=48 && chh11 <=57)
+         {System.out.println("Digit");}
+         else{System.out.println("symbol");}
         } 
         
     }
