@@ -35,21 +35,67 @@ public class Nested_loop {
 //            }
 //            i++;
 //        }
-        
-        Scanner user =new Scanner(System.in);
-        
-        
-        for (int j = 0; j < 3; j++) {
-            System.out.println("enter number");
-            int num1 = user.nextInt();
-            for (int k = 1; k <=10 ; k++) {
-              int num = num1*k;
-           System.out.println(num);
+        Scanner task = new Scanner(System.in);
 
-            }
-            
+//        for (int j = 0; j < 3; j++) {
+//            System.out.println("enter number");
+//            int num1 = user.nextInt();
+//            for (int k = 1; k <=10 ; k++) {
+//              int num = num1*k;
+//           System.out.println(num);
+//
+//            }
+//            
+//        }
+        for (int i = 0; i < 5; i++) {
+                 System.out.println("Enter Your Name");
+                 String name ;
+                 name=task.nextLine();
+                 System.out.println("Enter Your Class");
+                 int cal ;
+                 cal=task.nextInt();
+                 //subject marks
+                 System.out.println("Enter Eng Marks");
+                 double eng ;
+                 eng=task.nextInt();
+                 System.out.println("Enter Urdu Marks");
+                 double urdu ;
+                 urdu=task.nextInt();
+                 System.out.println("Enter Maths Marks");
+                 double math ;
+                 math=task.nextInt();
+                 task.nextLine();
+                 // sum of  obtained marks
+                 double total;
+                 total =eng+urdu+math;
+                 //percentage
+                 double per=(total/300)*100;
+                 //grade
+                String grade;
+                if(per >=80 && per<=100){
+                 grade="A+";
+                }else if(per >=70 && per<=79){
+                 grade="A";
+                }else if(per >=60 && per<=69){
+                 grade="B";
+                }else if(per >=50 && per<=59){
+                 grade="C";
+                }else if(per >=40 && per<=49){
+                 grade="D";
+                }else{grade="fail";}
+             
+                System.out.println("Name is  :"+name);  
+                System.out.println("Class is : "+cal);  
+                System.out.println("English  :"+eng);  
+                System.out.println("Urdu  :"+urdu);  
+                System.out.println("Mathematics :"+math);  
+                System.out.println("Obtained Marks Is :"+total);
+                System.out.println("Percentage Is :"+per+"%");
+                System.out.println("Grade Is :"+grade);
+           
+               
+       
         }
     }
 
 }
-        

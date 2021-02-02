@@ -5,6 +5,8 @@
  */
 package variables_class;
 
+import java.util.Scanner;
+
 /**
  *
  * @author S M Arsalan Shah
@@ -42,6 +44,11 @@ public class Variables_class {
         System.out.println(" Age is ="+age );
         System.out.println(" Height is =" + height);
         System.out.println(" Grade is =" + grade);
+        
+        
+        
+
+        }
     }
     
 }
