@@ -20,7 +20,7 @@ public class Assignment3_loops {
         // TODO code application logic here
         Scanner scan = new Scanner(System.in);
         System.out.println("Check how many times your number has been Printed");
-        int num2 = scan.nextInt();
+        int num2 = scan.nextInt();//2
         int count = 0;
         for (int i = 1; i <= 10; i++) {
             System.out.println("Enter " + i + " Number");
