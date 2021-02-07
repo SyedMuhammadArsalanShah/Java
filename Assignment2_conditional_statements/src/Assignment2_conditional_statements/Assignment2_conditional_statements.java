@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication11;
+package Assignment2_conditional_statements;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author S M Arsalan Shah
  */
-public class JavaApplication11 {
+public class Assignment2_conditional_statements {
 
     /**
      * @param args the command line arguments

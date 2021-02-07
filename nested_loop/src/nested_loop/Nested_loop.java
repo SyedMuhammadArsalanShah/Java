@@ -19,22 +19,21 @@ public class Nested_loop {
     public static void main(String[] args) {
         // TODO code application logic here
 
-//        for (int i = 0; i < 10; i++) {
-//            for (int j = 0; j < 10; j++) {
-//                
-//            }
-//        }
-//        int i = 1;
-//        
-//        while (i <= 5) {
-//            int j = 1;
-//            while (j <= 3) {
-//                System.out.println("i" + i);
-//                System.out.println("j" + j);
-//                j++;
-//            }
-//            i++;
-//        }
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                
+            }
+        }
+        int i = 1;
+        
+        while (i <= 5) {
+            int j = 1;
+            while (j <= 3) {
+                System.out.println("i" + i);
+                j++;
+            }
+            i++;
+        }
         Scanner task = new Scanner(System.in);
 
 //        for (int j = 0; j < 3; j++) {
@@ -47,7 +46,7 @@ public class Nested_loop {
 //            }
 //            
 //        }
-        for (int i = 0; i < 5; i++) {
+        for ( i = 0; i < 5; i++) {
                  System.out.println("Enter Your Name");
                  String name ;
                  name=task.nextLine();
@@ -96,6 +95,7 @@ public class Nested_loop {
                
        
         }
+       
     }
 
 }
