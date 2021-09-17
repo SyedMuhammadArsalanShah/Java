@@ -88,21 +88,6 @@ public class Java_AssignmentNestedLoop {
         }
         
         
-          for(int l=1;l<=5;l++)
-           {
-               for(int m=1;m<=l;m++ )
-               {
-               
-                   System.out.print(" ");
-               }  
-                   for(int n=5;n>=l;n--)
-                   {
-                       System.out.print("*"+" ");
-                   }       
-                    
-                      System.out.println();
-                       }
-        
         
         
         

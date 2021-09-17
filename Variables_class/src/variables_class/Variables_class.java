@@ -45,10 +45,8 @@ public class Variables_class {
         System.out.println(" Height is =" + height);
         System.out.println(" Grade is =" + grade);
         
-        
-        
 
         }
     }
     
-}
+
